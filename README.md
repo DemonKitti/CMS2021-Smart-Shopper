@@ -1,5 +1,5 @@
 # CMS2021-Smart-Shopper
-This project is a collection of scripts which is designed to fully automate the process of buying engines. The python script will allow you to change which engine you are working on/buying the parts for, while the AHK script is used for the actual buying of the parts. The JSON file is where data is stored. I will upload a short guide on how the JSON file is structured so you can add new lists if you wanted to buy something other than engines.
+This project is a collection of scripts which is designed to fully automate the process of buying engines in the game Car Mechanic Simulator 2021. The python script will allow you to change which engine you are working on/buying the parts for, while the AHK script is used for the actual buying of the parts. The JSON file is where data is stored. I will upload a short guide on how the JSON file is structured so you can add new lists if you wanted to buy something other than engines.
 You will need AHK 1.1 and Python 3.
 
 Just to note that the script so far only buys the parts required to build the engine on the engine crane, so some engines will be missing parts like exhaust pipes which would be required when installing the engine into a car. This may be worked on at a later date to add the extra parts, but for now it will only be the parts for the crane.

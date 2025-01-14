@@ -1,0 +1,23 @@
+If you're reading this then you are likely interested in modifying the JSON data
+
+
+heres how the data is structured
+
+{
+    "engines": {
+        "WhateverEngineName": [
+            { "name": "", "quantity": "", "tag": "" }
+        ],
+	........
+    }
+}
+
+you need to put the exact name of the part as the script uses exact phrase searches (ie "camshaft (v8)") to ensure the right part is purchased.
+the quantity is just a number which represents how many of this part you want (ie "piston with conrod" "8").
+and the most complex thing about this is the tag system. the tag is used to say what store you need to go to when buying the part.
+no tag means Main Shop, [tuned] means Tuning Shop, [electric] means Electronics Shop, [rim] means Rim Shop, [tire] means Tire Shop, [body tuned] means Body Tuning Shop, [body] means Body Shop, [interior] means Interior Shop, [gearbox] means Custom Gearbox Shop, and [community] means Workshop Body Parts.
+its pretty simple really, just make sure you use the correct tag and it should work fine.
+
+now you can make changes to the json file to add new part lists.
+
+(please note that rims and tires cannot be configured and are simply there so every major shop has a tag for navigation) - (feel free to add this functionality if you wish, i personally will not bother doing so. you can reach out to me if you do impliment it and i will put it in the official project if you want)
